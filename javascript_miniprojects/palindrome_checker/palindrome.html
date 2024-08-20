@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(126, 172, 145);
+        }
+        #body {
+            display:flex;
+            flex-direction: column;
+            align-self: center;
+            align-items: center;
+        }
+
+        input{
+
+            width:200px;
+            height: 20px;
+            background-color: rgb(176, 172, 196);
+
+        }
+
+        #input{
+            margin-top: 50px;
+        }
+
+    button{
+        background-color:palegoldenrod;
+        border-radius: 10px;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palindrome_checker</title>
+</head>
+<body>
+    <div id="body">
+    
+    <h1>PALINDROME CHECKER</h1>
+    <div id="input">
+        <input  type="text" placeholder="...............type here..........." name="input" />
+        <button onclick="check()">CHECK</button>
+    </div>
+    </div>
+    <script src="palindrome.js"></script>
+</body>
+</html>
